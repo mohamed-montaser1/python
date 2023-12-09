@@ -35,9 +35,9 @@ print(b.capitalize()) # I love 2d graphics and 3g technology and python
 
 c, d, e = "1", "11", "111"
 
-print(c.zfill(3)) # will fill start with zeros
-print(d.zfill(3)) # will fill start with zeros
-print(e.zfill(3)) # will fill start with zeros
+print(c.zfill(3)) # will fill start with zeros (001)
+print(d.zfill(3)) # will fill start with zeros (011)
+print(e.zfill(3)) # will fill start with zeros (111)
 
 # upper()
 
