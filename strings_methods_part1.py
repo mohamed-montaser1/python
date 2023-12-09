@@ -23,14 +23,15 @@ print(a.lstrip("@#")) # Will remove # and @ from start
 # title()
 
 b = "I Love 2d Graphics and 3g Technology and python"
-print(b.title())
+print(b.title()) # I Love 2D Graphics And 3G Technology And Python
 
 # capitalize()
 
 b = "I Love 2d Graphics and 3g Technology and python"
-print(b.capitalize())
+print(b.capitalize()) # I love 2d graphics and 3g technology and python
 
-# zfill
+# zfill(width) abbreviation for zero fill
+# zfill => Pad a numeric string with zeros on the left, to fill a field of the given width.
 
 c, d, e = "1", "11", "111"
 
@@ -42,10 +43,10 @@ print(e.zfill(3)) # will fill start with zeros
 
 g = "mohamed"
 
-print(g.upper())
+print(g.upper()) # MOHAMED
 
 # lower()
 
-h = "MOHamed"
+h = "MOHamed" # mohamed
 
 print(h.lower())
