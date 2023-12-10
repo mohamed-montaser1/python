@@ -20,9 +20,9 @@ def generate_password():
   random.shuffle(chars)
 
   password = "".join(chars)
-  return password
+  print(f"Generated password: {password}") 
 
 if length != (letters_length + nums_length + symbols_length):
   print(f"invalid inputs! total length is: {length}, and sum of the rest is: {letters_length + nums_length + symbols_length}")
 else:
-  print(generate_password())
+  generate_password()
